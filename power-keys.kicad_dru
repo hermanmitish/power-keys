@@ -1,0 +1,11 @@
+(version 1)
+(rule high_current
+    (condition "A.NetClass == 'HighCurrent'")
+    (constraint track_width (min 3.5mm))
+    (constraint clearance (min 0.3mm))
+    (constraint via_diameter (min 0.6mm))
+    (constraint hole_size (min 0.3mm)))
+(rule high_current_breakout
+    (condition "(A.NetClass == 'HighCurrent' || A.NetClass == 'Gate') && A.intersectsArea('DRV_BREAKOUT')")
+    (constraint track_width (min 0.2mm))
+    (constraint clearance (min 0.15mm)))
