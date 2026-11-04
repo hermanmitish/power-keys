@@ -2273,12 +2273,6 @@
 		(uuid "46fff715-0680-433a-aeb2-112a738d9cf3")
 	)
 	(junction
-		(at 38.1 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a9590ca-b60f-4e5b-8d10-e3c625ebb804")
-	)
-	(junction
 		(at 226.06 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2403,6 +2397,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9dee647a-cc9d-4659-b587-98ab27d6e26c")
+	)
+	(junction
+		(at 38.1 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a576b1a5-413b-4149-b2da-fa9c49ad873a")
 	)
 	(junction
 		(at 80.01 39.37)
@@ -2735,6 +2735,16 @@
 			(type default)
 		)
 		(uuid "1da42f46-19bd-4aea-9c1d-c6a6911b5f0b")
+	)
+	(wire
+		(pts
+			(xy 26.67 46.99) (xy 44.45 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dfc6749-6104-45dc-bb0b-5614fa5903af")
 	)
 	(wire
 		(pts
@@ -3508,16 +3518,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 44.45) (xy 40.64 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1dcf7a0-8626-4a7e-80d4-158a2636cec2")
-	)
-	(wire
-		(pts
 			(xy 176.53 26.67) (xy 176.53 27.94)
 		)
 		(stroke
@@ -3525,6 +3525,16 @@
 			(type default)
 		)
 		(uuid "a30def01-85a2-4882-847f-9bf048277414")
+	)
+	(wire
+		(pts
+			(xy 38.1 44.45) (xy 44.45 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a55ecfc2-86b4-4e40-b398-c22e5a1aaaa5")
 	)
 	(wire
 		(pts
@@ -3608,16 +3618,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 41.91) (xy 40.64 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba7f891f-3769-4242-910b-a54969bcb943")
-	)
-	(wire
-		(pts
 			(xy 226.06 39.37) (xy 228.6 39.37)
 		)
 		(stroke
@@ -3668,7 +3668,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 39.37) (xy 40.64 39.37)
+			(xy 24.13 49.53) (xy 44.45 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3987,7 +3987,7 @@
 		(uuid "330be512-ddff-40c6-bd95-ec1b41f2394e")
 	)
 	(label "PHASE_B"
-		(at 31.75 41.91 90)
+		(at 26.67 46.99 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3997,7 +3997,7 @@
 		(uuid "b4474fc3-646b-4ef2-a170-b3f4ef07d06b")
 	)
 	(label "PHASE_A"
-		(at 34.29 39.37 90)
+		(at 24.13 49.53 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4613,7 +4613,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "project:SOIC127P600X175-8N"
 			(at 246.05 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5484,7 +5484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "project:SOIC127P600X175-8N"
 			(at 318.44 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6266,7 +6266,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "project:SOIC127P600X175-8N"
 			(at 169.85 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6680,8 +6680,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 45.72 41.91 0)
-		(mirror x)
+		(at 49.53 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6691,7 +6690,7 @@
 		(dnp no)
 		(uuid "653b710b-63a7-4eda-a724-970555dc160a")
 		(property "Reference" "J1"
-			(at 38.1 50.038 0)
+			(at 52.07 52.578 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6702,7 +6701,7 @@
 			)
 		)
 		(property "Value" "Motor Connector"
-			(at 38.1 47.498 0)
+			(at 44.196 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6713,7 +6712,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-3-5.08_1x03_P5.08mm_Horizontal"
-			(at 45.72 41.91 0)
+			(at 49.53 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6724,7 +6723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 41.91 0)
+			(at 49.53 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6735,7 +6734,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 45.72 41.91 0)
+			(at 49.53 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6746,7 +6745,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 45.72 41.91 0)
+			(at 49.53 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6757,7 +6756,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 45.72 41.91 0)
+			(at 49.53 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6816,7 +6815,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "project:SOIC127P600X175-8N"
 			(at 169.85 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7348,7 +7347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "project:SOIC127P600X175-8N"
 			(at 246.05 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7807,7 +7806,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "project:SOIC127P600X175-8N"
 			(at 318.44 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8119,7 +8118,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
