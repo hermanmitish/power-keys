@@ -6,7 +6,7 @@
     (property "Value" "SK54" (at 11.43 2.54 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Footprint" "DIOM7959X262N" (at 11.43 -97.46 0)
+    (property "Footprint" "project:DIOM7959X262N" (at 11.43 -97.46 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/view/948707/DGNJDZ/SK54.html" (at 11.43 -197.46 0)

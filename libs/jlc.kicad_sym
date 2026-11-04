@@ -1202,7 +1202,7 @@
     )
   )
 
-  (symbol "CYH125-100UH"
+  (symbol "ASPI-8040S-101M-T"
     (in_bom yes)
     (on_board yes)
     (property
@@ -1214,79 +1214,79 @@
     )
     (property
       "Value"
-      "CYH125-100UH"
+      "ASPI-8040S-101M-T"
       (id 1)
       (at 0 -5.08 0)
       (effects (font (size 1.27 1.27) ) )
     )
     (property
       "Footprint"
-      "jlc:IND-SMD_L12.5-W12.5"
+      "jlc:IND-SMD_L8.0-W8.0_ASPI-8040S"
       (id 2)
       (at 0 -7.62 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
     (property
       "Datasheet"
-      "https://www.lcsc.com/datasheet/C7431084.pdf"
+      "https://lcsc.com/product-detail/Others_Abracon-LLC_ASPI-8040S-101M-T_Abracon-LLC-ASPI-8040S-101M-T_C187495.html"
       (id 3)
       (at 0 -10.16 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
     (property
       "Manufacturer"
-      "SHOU HAN(首韩)"
+      "ABRACON"
       (id 4)
       (at 0 -12.70 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
     (property
       "MPN"
-      "CYH125-100UH"
+      "ASPI-8040S-101M-T"
       (id 5)
       (at 0 -15.24 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
     (property
       "LCSC Part"
-      "C7431084"
+      "C187495"
       (id 6)
       (at 0 -17.78 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
     (property
       "ki_keywords"
-      "Inductors (SMD)"
+      "Power Inductors"
       (id 8)
       (at 0 -20.32 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
-    (symbol "CYH125-100UH_0_1"
+    (symbol "ASPI-8040S-101M-T_0_1"
       (arc
-        (start -2.03 -0.01)
-        (mid -3.04 1.02)
-        (end -4.06 0.01)
+        (start -2.27 0.02)
+        (mid -3.28 1.10)
+        (end -4.29 0.02)
         (stroke (width 0) (type default))
         (fill (type none))
       )
       (arc
-        (start 0.00 -0.01)
-        (mid -1.01 1.02)
-        (end -2.03 0.01)
+        (start -0.11 0.02)
+        (mid -1.12 1.10)
+        (end -2.13 0.02)
         (stroke (width 0) (type default))
         (fill (type none))
       )
       (arc
-        (start 4.06 -0.01)
-        (mid 3.05 1.02)
-        (end 2.03 0.01)
+        (start 2.04 0.02)
+        (mid 1.03 1.10)
+        (end 0.02 0.02)
         (stroke (width 0) (type default))
         (fill (type none))
       )
       (arc
-        (start 2.03 -0.01)
-        (mid 1.02 1.02)
-        (end 0.00 0.01)
+        (start 4.23 0.02)
+        (mid 3.22 1.10)
+        (end 2.21 0.02)
         (stroke (width 0) (type default))
         (fill (type none))
       )

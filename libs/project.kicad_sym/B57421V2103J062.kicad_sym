@@ -6,7 +6,7 @@
     (property "Value" "B57421V2103J062" (at 13.97 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Footprint" "THRMC2012X130N" (at 13.97 -96.19 0)
+    (property "Footprint" "project:THRMC2012X130N" (at 13.97 -96.19 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/sensor/ntc/chip-ntc-thermistor/data_sheet/50/db/ntc/ntc_smd_standard_series_0805.pdf" (at 13.97 -196.19 0)

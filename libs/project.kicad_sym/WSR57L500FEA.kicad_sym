@@ -7,7 +7,7 @@
     (property "Value" "WSR57L500FEA" (id 1) (at -7.62997 -5.08664 0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
-    (property "Footprint" "WSR57L500FEA:RESM11569X253N" (id 2) (at 0 0 0)
+    (property "Footprint" "jlc:RES-SMD_L6.3-W3.2_CSSH2512" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "MF" "Vishay" (id 4) (at 0 0 0)

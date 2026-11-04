@@ -6,7 +6,7 @@
     (property "Value" "LM2576D2TR4-5G" (at 31.75 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Footprint" "D2TSUFFIX-CASE936A-02-ISSUEC" (at 31.75 -94.92 0)
+    (property "Footprint" "project:D2TSUFFIX-CASE936A-02-ISSUEC" (at 31.75 -94.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.mouser.com/ds/2/308/LM2576-D-75194.pdf" (at 31.75 -194.92 0)

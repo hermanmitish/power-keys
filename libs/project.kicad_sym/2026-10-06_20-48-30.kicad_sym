@@ -6,7 +6,7 @@
     (property "Value" "MCP1727-3302E/MF" (id 1) (at 25.4 7.62 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "DFN8_3x3MC_MCH" (id 2) (at 0 0 0)
+    (property "Footprint" "project:DFN8_3x3MC_MCH" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "MCP1727-3302E/MF" (id 3) (at 0 0 0)

@@ -6,7 +6,7 @@
     (property "Value" "SS14" (at 12.7 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Footprint" "DIOM5127X261N" (at 12.7 -93.65 0)
+    (property "Footprint" "project:DIOM5127X261N" (at 12.7 -93.65 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://componentsearchengine.com/Datasheets/2/SS14.pdf" (at 12.7 -193.65 0)

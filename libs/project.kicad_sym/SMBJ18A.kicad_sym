@@ -6,7 +6,7 @@
     (property "Value" "SMBJ18A" (at 10.16 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Footprint" "DIOM5436X244N" (at 10.16 -93.65 0)
+    (property "Footprint" "project:DIOM5436X244N" (at 10.16 -93.65 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/smbj.pdf" (at 10.16 -193.65 0)

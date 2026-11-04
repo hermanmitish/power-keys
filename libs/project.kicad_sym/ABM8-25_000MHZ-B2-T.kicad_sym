@@ -6,7 +6,7 @@
     (property "Value" "ABM8-25.000MHZ-B2-T" (at 26.67 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Footprint" "ABM810000MHZ12D2W" (at 26.67 -94.92 0)
+    (property "Footprint" "project:ABM810000MHZ12D2W" (at 26.67 -94.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://abracon.com/Resonators/abm8.pdf" (at 26.67 -194.92 0)

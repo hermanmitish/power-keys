@@ -3208,7 +3208,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "project:ABM810000MHZ12D2W"
+			(property "Footprint" "ABM810000MHZ12D2W"
 				(at 26.67 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3438,12 +3438,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55ab4d28-29ba-414d-99ae-30acc5a960f2")
-	)
-	(junction
-		(at 204.47 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "584e2b16-bc0a-4c06-bddd-bd479a40104e")
 	)
 	(junction
 		(at 127 46.99)
@@ -4875,16 +4869,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 91.44) (xy 204.47 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2c8cfb0-f279-4461-ac50-43641a0cb4b2")
-	)
-	(wire
-		(pts
 			(xy 204.47 116.84) (xy 208.28 116.84)
 		)
 		(stroke
@@ -5346,7 +5330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "066501d8-a1ff-4aba-b72c-1a7b5953f6ba")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR10"
 			(at 226.06 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -5406,7 +5390,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/3c575f95-0dad-4209-a4ee-399d1e0c5736"
-					(reference "#PWR010")
+					(reference "#PWR10")
 					(unit 1)
 				)
 			)
@@ -5424,7 +5408,7 @@
 		(dnp no)
 		(uuid "24a106c2-7102-4763-b4a9-6945d7f8628b")
 		(property "Reference" "C21"
-			(at 133.604 38.608 0)
+			(at 133.985 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5505,7 +5489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3442d075-94e6-4aae-b407-59baf2a7850a")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR15"
 			(at 96.52 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5566,7 +5550,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/3c575f95-0dad-4209-a4ee-399d1e0c5736"
-					(reference "#PWR015")
+					(reference "#PWR15")
 					(unit 1)
 				)
 			)
@@ -5584,7 +5568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "361b1070-7e36-4fd6-b726-5e7a82017a3f")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR36"
 			(at 100.33 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5644,7 +5628,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/3c575f95-0dad-4209-a4ee-399d1e0c5736"
-					(reference "#PWR036")
+					(reference "#PWR36")
 					(unit 1)
 				)
 			)
@@ -5661,7 +5645,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38bf3e45-4e11-4804-b42d-1aee80c716e8")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR61"
 			(at 171.45 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5721,7 +5705,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/3c575f95-0dad-4209-a4ee-399d1e0c5736"
-					(reference "#PWR061")
+					(reference "#PWR61")
 					(unit 1)
 				)
 			)
@@ -5979,7 +5963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4be440e9-0580-4a32-bd81-9a5eb2ad4c25")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR20"
 			(at 111.76 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6039,7 +6023,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/3c575f95-0dad-4209-a4ee-399d1e0c5736"
-					(reference "#PWR020")
+					(reference "#PWR20")
 					(unit 1)
 				)
 			)
@@ -6057,7 +6041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c2132c1-76ef-437f-b866-dac9546ecc57")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR21"
 			(at 96.52 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6118,7 +6102,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/3c575f95-0dad-4209-a4ee-399d1e0c5736"
-					(reference "#PWR021")
+					(reference "#PWR21")
 					(unit 1)
 				)
 			)
@@ -6169,39 +6153,6 @@
 				)
 			)
 		)
-				(property "LCSC" "C160392"
-			(at 213.36 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-				(property "Manufacturer_Name" "JST"
-			(at 213.36 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-				(property "MPN" "BM06B-SRSS-TB(LF)(SN)"
-			(at 213.36 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
 			(at 213.36 109.22 0)
 			(hide yes)
@@ -6214,6 +6165,39 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 213.36 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C160392"
+			(at 213.36 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "JST"
+			(at 213.36 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BM06B-SRSS-TB(LF)(SN)"
 			(at 213.36 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6263,7 +6247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4db8f6e2-8da8-4342-ba8c-34733f6ae427")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR22"
 			(at 226.06 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -6323,7 +6307,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/3c575f95-0dad-4209-a4ee-399d1e0c5736"
-					(reference "#PWR022")
+					(reference "#PWR22")
 					(unit 1)
 				)
 			)
@@ -6421,7 +6405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5886b1a9-dbb2-42b0-9cb5-a166a71fd085")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR14"
 			(at 106.68 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6482,7 +6466,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/3c575f95-0dad-4209-a4ee-399d1e0c5736"
-					(reference "#PWR014")
+					(reference "#PWR14")
 					(unit 1)
 				)
 			)
@@ -6500,7 +6484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f84f963-d0fd-4af9-864d-ff1ea674fc39")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR13"
 			(at 152.4 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -6560,7 +6544,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/3c575f95-0dad-4209-a4ee-399d1e0c5736"
-					(reference "#PWR013")
+					(reference "#PWR13")
 					(unit 1)
 				)
 			)
@@ -6578,7 +6562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "658bb005-d70c-413c-9992-45f088125591")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR12"
 			(at 146.05 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -6638,7 +6622,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/3c575f95-0dad-4209-a4ee-399d1e0c5736"
-					(reference "#PWR012")
+					(reference "#PWR12")
 					(unit 1)
 				)
 			)
@@ -6656,7 +6640,7 @@
 		(dnp no)
 		(uuid "6929b54b-509d-4fc3-ad43-f93b9f739d17")
 		(property "Reference" "C24"
-			(at 153.416 33.528 0)
+			(at 153.035 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6737,14 +6721,14 @@
 		(dnp no)
 		(uuid "73cf8e34-bde7-4daf-a77a-0057e86aa752")
 		(property "Reference" "Y1"
-			(at 84.074 103.632 0)
+			(at 82.55 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
 		)
 		(property "Value" "ABM8-25.000MHZ-B2-T"
@@ -6829,6 +6813,54 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser Part Number" "815-ABM8-25-B2-T"
+			(at 785.09 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ABM8-25.000MHZ-B2-T?qs=D0XpjEo%2FJ5CyDikUKoGKpw%3D%3D"
+			(at 885.09 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "ABM8-25.000MHZ-B2-T"
+			(at 985.09 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/abm8-25-000mhz-b2-t/abracon.html?utm_currency=USD&region=asia"
+			(at 1085.09 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(pin "2"
 			(uuid "5aafbc51-04c7-4cd3-b6e2-eed112d5d4da")
 		)
@@ -6893,39 +6925,6 @@
 				)
 			)
 		)
-				(property "LCSC" "C720477"
-			(at 116.84 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-				(property "Manufacturer_Name" "XUNPU"
-			(at 116.84 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-				(property "MPN" "TS-1088-AR02016"
-			(at 116.84 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 116.84 55.88 0)
 			(hide yes)
@@ -6939,6 +6938,39 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 116.84 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C720477"
+			(at 116.84 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "XUNPU"
+			(at 116.84 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS-1088-AR02016"
+			(at 116.84 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7008,39 +7040,6 @@
 				)
 			)
 		)
-				(property "LCSC" "C1002"
-			(at 165.862 30.48 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-				(property "Manufacturer_Name" "Sunlord"
-			(at 165.862 30.48 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-				(property "MPN" "GZ1608D601TF"
-			(at 165.862 30.48 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 167.64 30.48 0)
 			(hide yes)
@@ -7054,6 +7053,39 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 167.64 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1002"
+			(at 165.862 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Sunlord"
+			(at 165.862 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GZ1608D601TF"
+			(at 165.862 30.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7090,7 +7122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f7e2ef4-cf2b-43e5-8c3d-ab485a71af74")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR70"
 			(at 115.57 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7150,7 +7182,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/3c575f95-0dad-4209-a4ee-399d1e0c5736"
-					(reference "#PWR070")
+					(reference "#PWR70")
 					(unit 1)
 				)
 			)
@@ -7168,7 +7200,7 @@
 		(dnp no)
 		(uuid "9a69a816-cb38-4b29-bc1b-4c6148112430")
 		(property "Reference" "C20"
-			(at 127.508 33.274 0)
+			(at 127.635 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7249,7 +7281,7 @@
 		(dnp no)
 		(uuid "9d15b0c0-0a0a-4529-9f1b-48ed868e99c3")
 		(property "Reference" "C22"
-			(at 140.462 33.274 0)
+			(at 140.335 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7330,7 +7362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a170a996-0068-43b4-88cd-c7352ad30e9b")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG5"
 			(at 169.545 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7391,7 +7423,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/3c575f95-0dad-4209-a4ee-399d1e0c5736"
-					(reference "#FLG05")
+					(reference "#FLG5")
 					(unit 1)
 				)
 			)
@@ -7409,7 +7441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4e6df8a-99cf-4ceb-ba4f-006581801f4d")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR19"
 			(at 167.64 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7469,7 +7501,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/3c575f95-0dad-4209-a4ee-399d1e0c5736"
-					(reference "#PWR019")
+					(reference "#PWR19")
 					(unit 1)
 				)
 			)
@@ -7487,7 +7519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a95305ed-1bae-4531-ba1e-aae02ca327ef")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR69"
 			(at 115.57 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7547,7 +7579,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/3c575f95-0dad-4209-a4ee-399d1e0c5736"
-					(reference "#PWR069")
+					(reference "#PWR69")
 					(unit 1)
 				)
 			)
@@ -7645,7 +7677,7 @@
 		(dnp no)
 		(uuid "afe5fa2b-50ff-4ebb-8c6a-1d6a17d9fe52")
 		(property "Reference" "R22"
-			(at 108.204 77.978 90)
+			(at 107.95 80.518 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7724,13 +7756,14 @@
 		(dnp no)
 		(uuid "b2e4c54b-19c0-493b-9123-c28135cd5eef")
 		(property "Reference" "C26"
-			(at 182.372 39.37 90)
+			(at 176.53 42.545 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10u"
@@ -7803,7 +7836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b84c541a-3685-48c9-b80b-076b3f6ca427")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR35"
 			(at 90.17 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7863,7 +7896,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/3c575f95-0dad-4209-a4ee-399d1e0c5736"
-					(reference "#PWR035")
+					(reference "#PWR35")
 					(unit 1)
 				)
 			)
@@ -7881,7 +7914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb548192-5894-42c1-8876-c8c3d729e102")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR17"
 			(at 71.12 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7941,7 +7974,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/3c575f95-0dad-4209-a4ee-399d1e0c5736"
-					(reference "#PWR017")
+					(reference "#PWR17")
 					(unit 1)
 				)
 			)
@@ -7993,18 +8026,6 @@
 				(justify right)
 			)
 		)
-				(property "LCSC" "C15742"
-			(at 132.08 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f405rg.pdf"
 			(at 149.86 106.68 0)
 			(hide yes)
@@ -8025,6 +8046,18 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C15742"
+			(at 132.08 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(property "MPN" "STM32F405RGT6"
@@ -8262,13 +8295,14 @@
 		(dnp no)
 		(uuid "d797df3d-060e-42b6-9889-e1a75f8ce9cd")
 		(property "Reference" "SW3"
-			(at 108.204 69.342 0)
+			(at 109.22 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "SW_Push"
@@ -8292,39 +8326,6 @@
 				)
 			)
 		)
-				(property "LCSC" "C720477"
-			(at 107.95 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-				(property "Manufacturer_Name" "XUNPU"
-			(at 107.95 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-				(property "MPN" "TS-1088-AR02016"
-			(at 107.95 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 107.95 71.12 0)
 			(hide yes)
@@ -8338,6 +8339,39 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 107.95 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C720477"
+			(at 107.95 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "XUNPU"
+			(at 107.95 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS-1088-AR02016"
+			(at 107.95 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8374,7 +8408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d99bfc34-2fba-42f9-b33f-6dff2a5eba79")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR16"
 			(at 123.19 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8434,7 +8468,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/3c575f95-0dad-4209-a4ee-399d1e0c5736"
-					(reference "#PWR016")
+					(reference "#PWR16")
 					(unit 1)
 				)
 			)
@@ -8452,7 +8486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9d0aa49-820a-4644-8f56-c3d5def04fbd")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR18"
 			(at 184.15 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8512,7 +8546,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/3c575f95-0dad-4209-a4ee-399d1e0c5736"
-					(reference "#PWR018")
+					(reference "#PWR18")
 					(unit 1)
 				)
 			)
@@ -8530,7 +8564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db62874c-cbf0-4348-a6aa-e621b9fa3f3b")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR11"
 			(at 123.19 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8590,7 +8624,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/3c575f95-0dad-4209-a4ee-399d1e0c5736"
-					(reference "#PWR011")
+					(reference "#PWR11")
 					(unit 1)
 				)
 			)
@@ -8608,13 +8642,14 @@
 		(dnp no)
 		(uuid "e1779d40-b958-4f14-bb60-4ed817165b82")
 		(property "Reference" "C25"
-			(at 176.53 48.26 90)
+			(at 170.18 51.435 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100n"
@@ -8687,7 +8722,7 @@
 		(dnp no)
 		(uuid "ee616544-aa46-475c-9d79-978be2afaabf")
 		(property "Reference" "J2"
-			(at 105.156 88.646 90)
+			(at 110.49 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8717,39 +8752,6 @@
 				)
 			)
 		)
-				(property "LCSC" "C160391"
-			(at 110.49 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-				(property "Manufacturer_Name" "JST"
-			(at 110.49 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-				(property "MPN" "BM05B-SRSS-TB(LF)(SN)"
-			(at 110.49 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 110.49 97.79 0)
 			(hide yes)
@@ -8762,6 +8764,39 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 110.49 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C160391"
+			(at 110.49 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "JST"
+			(at 110.49 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BM05B-SRSS-TB(LF)(SN)"
 			(at 110.49 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8808,7 +8843,7 @@
 		(dnp no)
 		(uuid "f3553cc5-0a0e-4c56-9f38-49d32e28689d")
 		(property "Reference" "C23"
-			(at 146.304 38.608 0)
+			(at 146.685 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

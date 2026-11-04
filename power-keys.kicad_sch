@@ -2267,22 +2267,10 @@
 		(uuid "45239b5f-706f-4efd-bb64-d0546ce9b362")
 	)
 	(junction
-		(at 100.33 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46fff715-0680-433a-aeb2-112a738d9cf3")
-	)
-	(junction
 		(at 226.06 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5252498d-8779-4f2b-8409-77c805b62e34")
-	)
-	(junction
-		(at 176.53 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55f61daf-8a5d-4a67-8654-6532ca57e0f9")
 	)
 	(junction
 		(at 156.21 26.67)
@@ -2481,12 +2469,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccd13288-8df2-4de6-9cb8-04412db1f19e")
-	)
-	(junction
-		(at 248.92 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce99739b-ad24-41b0-9ba5-ece22807516e")
 	)
 	(junction
 		(at 226.06 64.77)
@@ -2755,16 +2737,6 @@
 			(type default)
 		)
 		(uuid "1e42f7ae-0e6a-49c1-9a93-a281de078a09")
-	)
-	(wire
-		(pts
-			(xy 176.53 31.75) (xy 176.53 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e670b0f-c681-4a56-9f8c-6537813bd72a")
 	)
 	(wire
 		(pts
@@ -3878,16 +3850,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 31.75) (xy 100.33 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eafe8d9e-261b-42e2-9631-ac2fc8ab7741")
-	)
-	(wire
-		(pts
 			(xy 77.47 39.37) (xy 80.01 39.37)
 		)
 		(stroke
@@ -3895,16 +3857,6 @@
 			(type default)
 		)
 		(uuid "ec76d0c7-a7de-43bf-b2d6-95de44317a74")
-	)
-	(wire
-		(pts
-			(xy 248.92 31.75) (xy 248.92 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0c61be3-a9f5-4e65-bfb9-e8cea91b9274")
 	)
 	(wire
 		(pts
@@ -4329,7 +4281,7 @@
 		(dnp no)
 		(uuid "06c484ab-6a40-4b44-940e-3c00ed71fd20")
 		(property "Reference" "NT2"
-			(at 151.13 136.652 0)
+			(at 151.13 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4409,7 +4361,7 @@
 		(dnp no)
 		(uuid "088f2579-34c8-4772-944a-c6404a66b63a")
 		(property "Reference" "NT3"
-			(at 75.184 112.268 0)
+			(at 74.93 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4603,18 +4555,6 @@
 				(justify left top)
 			)
 		)
-				(property "LCSC" "C3289680"
-			(at 246.05 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
 		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/427/si4122dy-1765002.pdf"
 			(at 346.05 43.18 0)
 			(hide yes)
@@ -4638,6 +4578,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C3289680"
+			(at 246.05 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(property "MPN" "FDS4080N7"
 			(at 151.13 64.77 0)
 			(hide yes)
@@ -4649,7 +4601,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "onsemi"
+		(property "Manufacturer_Name" "Vishay"
 			(at 846.05 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4673,8 +4625,32 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "FDS4080N7"
+		(property "Manufacturer_Part_Number" "SI4122DY-T1-GE3"
 			(at 946.05 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "781-SI4122DY-T1-GE3"
+			(at 646.05 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4122DY-T1-GE3?qs=IRuQNBqMOcmG0EdXo7usFg%3D%3D"
+			(at 746.05 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4892,7 +4868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14e73aad-b002-4ccd-a766-419e7418a715")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR27"
 			(at 106.68 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -4952,7 +4928,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/7dea6e3e-686f-45d2-a0b6-c0a842fe25f6"
-					(reference "#PWR027")
+					(reference "#PWR27")
 					(unit 1)
 				)
 			)
@@ -5338,7 +5314,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor C0G"
+		(property "Description" "Unpolarized capacitor"
 			(at 207.01 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5387,13 +5363,14 @@
 		(dnp no)
 		(uuid "2f917a06-7881-4dad-b123-84fa59a71ca6")
 		(property "Reference" "IC12"
-			(at 212.09 86.36 0)
+			(at 215.9 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
 		(property "Value" "FDS4080N7"
@@ -5407,18 +5384,6 @@
 			)
 		)
 		(property "Footprint" "project:SOIC127P600X175-8N"
-			(at 318.44 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-				(property "LCSC" "C3289680"
 			(at 318.44 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5453,6 +5418,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C3289680"
+			(at 318.44 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(property "MPN" "FDS4080N7"
 			(at 223.52 99.06 0)
 			(hide yes)
@@ -5464,7 +5441,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "onsemi"
+		(property "Manufacturer_Name" "Vishay"
 			(at 918.44 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5488,8 +5465,32 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "FDS4080N7"
+		(property "Manufacturer_Part_Number" "SI4122DY-T1-GE3"
 			(at 1018.44 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "781-SI4122DY-T1-GE3"
+			(at 718.44 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4122DY-T1-GE3?qs=IRuQNBqMOcmG0EdXo7usFg%3D%3D"
+			(at 818.44 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5545,7 +5546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "367d91fa-2541-4d51-a8d0-f13b6bd15c11")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR62"
 			(at 100.33 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -5605,7 +5606,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/7dea6e3e-686f-45d2-a0b6-c0a842fe25f6"
-					(reference "#PWR062")
+					(reference "#PWR62")
 					(unit 1)
 				)
 			)
@@ -5623,7 +5624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f3f56b8-c40a-402e-884a-1f80ab56d887")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR2"
 			(at 80.01 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -5683,7 +5684,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/7dea6e3e-686f-45d2-a0b6-c0a842fe25f6"
-					(reference "#PWR02")
+					(reference "#PWR2")
 					(unit 1)
 				)
 			)
@@ -5701,7 +5702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "480253d3-2ad2-4c82-ba28-37bf2570e4b1")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR5"
 			(at 156.21 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -5761,7 +5762,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/7dea6e3e-686f-45d2-a0b6-c0a842fe25f6"
-					(reference "#PWR05")
+					(reference "#PWR5")
 					(unit 1)
 				)
 			)
@@ -6133,18 +6134,6 @@
 				(justify left top)
 			)
 		)
-				(property "LCSC" "C3289680"
-			(at 169.85 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
 		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/427/si4122dy-1765002.pdf"
 			(at 269.85 43.18 0)
 			(hide yes)
@@ -6168,6 +6157,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C3289680"
+			(at 169.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(property "MPN" "FDS4080N7"
 			(at 74.93 64.77 0)
 			(hide yes)
@@ -6179,7 +6180,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "onsemi"
+		(property "Manufacturer_Name" "Vishay"
 			(at 769.85 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6203,8 +6204,32 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "FDS4080N7"
+		(property "Manufacturer_Part_Number" "SI4122DY-T1-GE3"
 			(at 869.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "781-SI4122DY-T1-GE3"
+			(at 569.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4122DY-T1-GE3?qs=IRuQNBqMOcmG0EdXo7usFg%3D%3D"
+			(at 669.85 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6342,7 +6367,7 @@
 		(dnp no)
 		(uuid "6180dc46-f91a-41ed-bc7f-fb320731de30")
 		(property "Reference" "NT4"
-			(at 75.184 136.652 0)
+			(at 74.93 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6422,7 +6447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6238276f-494b-42b6-a009-fb5fce85fd03")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR1"
 			(at 80.01 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -6482,7 +6507,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/7dea6e3e-686f-45d2-a0b6-c0a842fe25f6"
-					(reference "#PWR01")
+					(reference "#PWR1")
 					(unit 1)
 				)
 			)
@@ -6500,14 +6525,13 @@
 		(dnp no)
 		(uuid "653b710b-63a7-4eda-a724-970555dc160a")
 		(property "Reference" "J1"
-			(at 52.07 52.578 0)
+			(at 49.53 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Motor Connector"
@@ -6584,13 +6608,14 @@
 		(dnp no)
 		(uuid "75a9e1a8-0d0c-47f5-acd5-ee2eb7a9d6fe")
 		(property "Reference" "IC8"
-			(at 63.5 86.36 0)
+			(at 67.31 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
 		(property "Value" "FDS4080N7"
@@ -6604,18 +6629,6 @@
 			)
 		)
 		(property "Footprint" "project:SOIC127P600X175-8N"
-			(at 169.85 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-				(property "LCSC" "C3289680"
 			(at 169.85 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6650,6 +6663,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C3289680"
+			(at 169.85 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(property "MPN" "FDS4080N7"
 			(at 74.93 99.06 0)
 			(hide yes)
@@ -6661,7 +6686,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "onsemi"
+		(property "Manufacturer_Name" "Vishay"
 			(at 769.85 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6685,8 +6710,32 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "FDS4080N7"
+		(property "Manufacturer_Part_Number" "SI4122DY-T1-GE3"
 			(at 869.85 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "781-SI4122DY-T1-GE3"
+			(at 569.85 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4122DY-T1-GE3?qs=IRuQNBqMOcmG0EdXo7usFg%3D%3D"
+			(at 669.85 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6742,7 +6791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cff10df-cfdd-4406-874f-9adc0a3748b7")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR4"
 			(at 228.6 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6802,7 +6851,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/7dea6e3e-686f-45d2-a0b6-c0a842fe25f6"
-					(reference "#PWR04")
+					(reference "#PWR4")
 					(unit 1)
 				)
 			)
@@ -6864,7 +6913,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor C0G"
+		(property "Description" "Unpolarized capacitor"
 			(at 134.62 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -6993,7 +7042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dd75a32-54da-4520-8a6d-95e9effba750")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR9"
 			(at 50.8 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -7053,7 +7102,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/7dea6e3e-686f-45d2-a0b6-c0a842fe25f6"
-					(reference "#PWR09")
+					(reference "#PWR9")
 					(unit 1)
 				)
 			)
@@ -7071,13 +7120,14 @@
 		(dnp no)
 		(uuid "9239a5ea-8181-4f85-bf46-f2986f79e30d")
 		(property "Reference" "IC10"
-			(at 139.7 86.36 0)
+			(at 143.51 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
 		(property "Value" "FDS4080N7"
@@ -7091,18 +7141,6 @@
 			)
 		)
 		(property "Footprint" "project:SOIC127P600X175-8N"
-			(at 246.05 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-				(property "LCSC" "C3289680"
 			(at 246.05 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7137,6 +7175,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C3289680"
+			(at 246.05 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(property "MPN" "FDS4080N7"
 			(at 151.13 99.06 0)
 			(hide yes)
@@ -7148,7 +7198,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "onsemi"
+		(property "Manufacturer_Name" "Vishay"
 			(at 846.05 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7172,8 +7222,32 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "FDS4080N7"
+		(property "Manufacturer_Part_Number" "SI4122DY-T1-GE3"
 			(at 946.05 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "781-SI4122DY-T1-GE3"
+			(at 646.05 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4122DY-T1-GE3?qs=IRuQNBqMOcmG0EdXo7usFg%3D%3D"
+			(at 746.05 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7353,7 +7427,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor C0G"
+		(property "Description" "Unpolarized capacitor"
 			(at 58.42 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -7516,18 +7590,6 @@
 				(justify left top)
 			)
 		)
-				(property "LCSC" "C3289680"
-			(at 318.44 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
 		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/427/si4122dy-1765002.pdf"
 			(at 418.44 43.18 0)
 			(hide yes)
@@ -7551,6 +7613,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C3289680"
+			(at 318.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(property "MPN" "FDS4080N7"
 			(at 223.52 64.77 0)
 			(hide yes)
@@ -7562,7 +7636,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "onsemi"
+		(property "Manufacturer_Name" "Vishay"
 			(at 918.44 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7586,8 +7660,32 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "FDS4080N7"
+		(property "Manufacturer_Part_Number" "SI4122DY-T1-GE3"
 			(at 1018.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "781-SI4122DY-T1-GE3"
+			(at 718.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4122DY-T1-GE3?qs=IRuQNBqMOcmG0EdXo7usFg%3D%3D"
+			(at 818.44 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7643,7 +7741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1a39202-8439-49d8-af90-40b1bd1f7d08")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR6"
 			(at 156.21 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -7703,7 +7801,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/7dea6e3e-686f-45d2-a0b6-c0a842fe25f6"
-					(reference "#PWR06")
+					(reference "#PWR6")
 					(unit 1)
 				)
 			)
@@ -7721,7 +7819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b511ddfd-ba37-4ff9-8bb1-5d575e354a97")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR7"
 			(at 64.77 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -7781,7 +7879,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/7dea6e3e-686f-45d2-a0b6-c0a842fe25f6"
-					(reference "#PWR07")
+					(reference "#PWR7")
 					(unit 1)
 				)
 			)
@@ -7793,20 +7891,19 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbc22dff-0454-4ba3-a29c-586c7b26f033")
 		(property "Reference" "TP16"
-			(at 35.814 28.956 0)
+			(at 38.1 29.972 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -7911,18 +8008,6 @@
 				(justify bottom)
 			)
 		)
-				(property "LCSC" "C304389"
-			(at 80.01 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Datasheet" ""
 			(at 80.01 127 0)
 			(hide yes)
@@ -7935,6 +8020,18 @@
 			)
 		)
 		(property "Description" "7.5 mOhms ±1% 5W Chip Resistor 4527 J-Lead Anti-Sulfur, Automotive AEC-Q200, Current Sense, Moisture Resistant, Pulse Withstanding Metal Element"
+			(at 80.01 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "LCSC" "C304389"
 			(at 80.01 127 0)
 			(hide yes)
 			(show_name no)
@@ -7968,6 +8065,150 @@
 				)
 			)
 		)
+		(property "MF" "Vishay"
+			(at 80.01 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.537mm"
+			(at 80.01 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 80.01 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 80.01 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/WSR57L500FEA/Vishay/view-part/?ref=eda"
+			(at 80.01 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 80.01 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "01-Jan-2019"
+			(at 80.01 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/WSR57L500FEA/Vishay/view-part/?ref=snap"
+			(at 80.01 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "WSR57L500FEA"
+			(at 80.01 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=15927850&manufacturer=Vishay&part_name=WSR57L500FEA&search_term=None"
+			(at 80.01 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 80.01 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Vishay"
+			(at 80.01 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
 		(pin "2"
 			(uuid "0fcae7d0-05ea-4c63-bfdd-6d967574a727")
 		)
@@ -7995,7 +8236,7 @@
 		(dnp no)
 		(uuid "c97959c3-ce20-4706-bd6b-6a2b01fb1c45")
 		(property "Reference" "NT1"
-			(at 151.13 112.522 0)
+			(at 151.13 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8109,18 +8350,6 @@
 				(justify bottom)
 			)
 		)
-				(property "LCSC" "C304389"
-			(at 228.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Datasheet" ""
 			(at 228.6 127 0)
 			(hide yes)
@@ -8133,6 +8362,18 @@
 			)
 		)
 		(property "Description" "7.5 mOhms ±1% 5W Chip Resistor 4527 J-Lead Anti-Sulfur, Automotive AEC-Q200, Current Sense, Moisture Resistant, Pulse Withstanding Metal Element"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "LCSC" "C304389"
 			(at 228.6 127 0)
 			(hide yes)
 			(show_name no)
@@ -8164,6 +8405,150 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MF" "Vishay"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.537mm"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/WSR57L500FEA/Vishay/view-part/?ref=eda"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "01-Jan-2019"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/WSR57L500FEA/Vishay/view-part/?ref=snap"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "WSR57L500FEA"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=15927850&manufacturer=Vishay&part_name=WSR57L500FEA&search_term=None"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Vishay"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 			)
 		)
 		(pin "2"
@@ -8227,18 +8612,6 @@
 				(justify bottom)
 			)
 		)
-				(property "LCSC" "C304389"
-			(at 156.21 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Datasheet" ""
 			(at 156.21 127 0)
 			(hide yes)
@@ -8251,6 +8624,18 @@
 			)
 		)
 		(property "Description" "7.5 mOhms ±1% 5W Chip Resistor 4527 J-Lead Anti-Sulfur, Automotive AEC-Q200, Current Sense, Moisture Resistant, Pulse Withstanding Metal Element"
+			(at 156.21 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "LCSC" "C304389"
 			(at 156.21 127 0)
 			(hide yes)
 			(show_name no)
@@ -8282,6 +8667,150 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MF" "Vishay"
+			(at 156.21 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.537mm"
+			(at 156.21 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 156.21 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 156.21 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/WSR57L500FEA/Vishay/view-part/?ref=eda"
+			(at 156.21 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 156.21 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "01-Jan-2019"
+			(at 156.21 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/WSR57L500FEA/Vishay/view-part/?ref=snap"
+			(at 156.21 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "WSR57L500FEA"
+			(at 156.21 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=15927850&manufacturer=Vishay&part_name=WSR57L500FEA&search_term=None"
+			(at 156.21 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 156.21 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Vishay"
+			(at 156.21 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 			)
 		)
 		(pin "2"
@@ -8661,6 +9190,54 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "871-B57421V2103J062"
+			(at -631.42 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B57421V2103J062?qs=E%2F3ZYvLbbh%2FG20tRdEgfTQ%3D%3D"
+			(at -731.42 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at -831.42 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -931.42 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(pin "1"
 			(uuid "833f4def-5515-4d8a-817f-9127d8ffd68c")
 		)
@@ -8688,7 +9265,7 @@
 		(dnp no)
 		(uuid "d980a601-858c-4475-a350-0b64ed411826")
 		(property "Reference" "NT5"
-			(at 223.774 112.522 0)
+			(at 223.52 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8850,7 +9427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de751818-b22e-4d96-afa5-14a7f778d0c6")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR64"
 			(at 248.92 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8910,7 +9487,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/7dea6e3e-686f-45d2-a0b6-c0a842fe25f6"
-					(reference "#PWR064")
+					(reference "#PWR64")
 					(unit 1)
 				)
 			)
@@ -8928,7 +9505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2fe7c9c-47b6-42f1-b7b8-fc5ce1625c35")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR68"
 			(at 106.68 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -8988,7 +9565,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/7dea6e3e-686f-45d2-a0b6-c0a842fe25f6"
-					(reference "#PWR068")
+					(reference "#PWR68")
 					(unit 1)
 				)
 			)
@@ -9006,7 +9583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e656438b-f37e-47f4-b90d-f534b084a615")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR63"
 			(at 176.53 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9066,7 +9643,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/7dea6e3e-686f-45d2-a0b6-c0a842fe25f6"
-					(reference "#PWR063")
+					(reference "#PWR63")
 					(unit 1)
 				)
 			)
@@ -9084,7 +9661,7 @@
 		(dnp no)
 		(uuid "f1132517-6b5d-42ee-80e6-d37161ef3c3d")
 		(property "Reference" "NT6"
-			(at 223.774 136.398 0)
+			(at 223.52 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9164,7 +9741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f17b0e52-5fdd-43be-bb09-616418313b0a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR8"
 			(at 64.77 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -9224,7 +9801,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/7dea6e3e-686f-45d2-a0b6-c0a842fe25f6"
-					(reference "#PWR08")
+					(reference "#PWR8")
 					(unit 1)
 				)
 			)
@@ -9242,7 +9819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3179cdb-d339-4966-b883-1fa3c8fce71d")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR3"
 			(at 228.6 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -9302,7 +9879,7 @@
 		(instances
 			(project "power-keys"
 				(path "/1138e95e-403e-48b2-800e-d6dade74b36d/7dea6e3e-686f-45d2-a0b6-c0a842fe25f6"
-					(reference "#PWR03")
+					(reference "#PWR3")
 					(unit 1)
 				)
 			)

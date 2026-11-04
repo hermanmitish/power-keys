@@ -6,7 +6,7 @@
     (property "Value" "RN4871-I_RM140" (at 29.21 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Footprint" "RN4871IRM140" (at 29.21 -94.92 0)
+    (property "Footprint" "project:RN4871IRM140" (at 29.21 -94.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.digikey.ph/en/products/detail/microchip-technology/RN4871-I-RM140/10673433" (at 29.21 -194.92 0)

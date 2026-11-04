@@ -6,7 +6,7 @@
     (property "Value" "ABLS-25.000MHZ-B-2-F-T" (at 8.89 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Footprint" "ABLS25000MHZB2FT" (at 8.89 -96.19 0)
+    (property "Footprint" "project:ABLS25000MHZB2FT" (at 8.89 -96.19 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "" (at 8.89 -196.19 0)
