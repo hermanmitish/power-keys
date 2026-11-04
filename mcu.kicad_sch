@@ -3208,7 +3208,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "ABM810000MHZ12D2W"
+			(property "Footprint" "project:ABM810000MHZ12D2W"
 				(at 26.67 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5478,28 +5478,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 133.35 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 133.35 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "050e064e-dd87-4ba3-8970-b44d5d2516ec")
 		)
@@ -5814,28 +5792,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 82.55 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 82.55 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "50b08700-4432-4bbf-8231-544ea59458bf")
 		)
@@ -5916,28 +5872,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 120.65 144.78 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 120.65 144.78 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "20041439-ee0c-48df-922b-23b6ab1cd226")
 		)
@@ -6009,28 +5943,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 107.95 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 107.95 60.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 107.95 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6257,6 +6169,39 @@
 				)
 			)
 		)
+				(property "LCSC" "C160392"
+			(at 213.36 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+				(property "Manufacturer_Name" "JST"
+			(at 213.36 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+				(property "MPN" "BM06B-SRSS-TB(LF)(SN)"
+			(at 213.36 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
 			(at 213.36 109.22 0)
 			(hide yes)
@@ -6269,28 +6214,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 213.36 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 213.36 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
 			(at 213.36 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6462,28 +6385,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 120.65 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 120.65 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 120.65 132.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6809,28 +6710,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 152.4 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 152.4 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e980fe04-720a-4e2d-9c9f-197291c05010")
 		)
@@ -6879,7 +6758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ABM810000MHZ12D2W"
+		(property "Footprint" "project:ABM810000MHZ12D2W"
 			(at 185.09 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6940,54 +6819,6 @@
 		)
 		(property "Manufacturer_Part_Number" "ABM8-25.000MHZ-B2-T"
 			(at 685.09 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "815-ABM8-25-B2-T"
-			(at 785.09 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ABM8-25.000MHZ-B2-T?qs=D0XpjEo%2FJ5CyDikUKoGKpw%3D%3D"
-			(at 885.09 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "ABM8-25.000MHZ-B2-T"
-			(at 985.09 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/abm8-25-000mhz-b2-t/abracon.html?utm_currency=USD&region=asia"
-			(at 1085.09 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7062,6 +6893,39 @@
 				)
 			)
 		)
+				(property "LCSC" "C720477"
+			(at 116.84 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+				(property "Manufacturer_Name" "XUNPU"
+			(at 116.84 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+				(property "MPN" "TS-1088-AR02016"
+			(at 116.84 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Datasheet" ""
 			(at 116.84 55.88 0)
 			(hide yes)
@@ -7074,28 +6938,6 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 116.84 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 116.84 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
 			(at 116.84 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7166,6 +7008,39 @@
 				)
 			)
 		)
+				(property "LCSC" "C1002"
+			(at 165.862 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+				(property "Manufacturer_Name" "Sunlord"
+			(at 165.862 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+				(property "MPN" "GZ1608D601TF"
+			(at 165.862 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Datasheet" ""
 			(at 167.64 30.48 0)
 			(hide yes)
@@ -7178,28 +7053,6 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 167.64 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 167.64 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
 			(at 167.64 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7369,28 +7222,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 127 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 127 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "2a7f3a00-4b6e-4486-b13c-a263fe6985c0")
 		)
@@ -7462,28 +7293,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 139.7 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 139.7 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
 			(at 139.7 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7809,28 +7618,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 82.55 120.65 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 82.55 120.65 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "8311170f-8913-4233-bf48-6b1b3afc1b07")
 		)
@@ -7910,28 +7697,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 107.95 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 107.95 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "2e2e4860-cd14-4e70-a5d6-cb968dab8886")
 		)
@@ -8002,28 +7767,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 179.07 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 179.07 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 179.07 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8250,6 +7993,18 @@
 				(justify right)
 			)
 		)
+				(property "LCSC" "C15742"
+			(at 132.08 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f405rg.pdf"
 			(at 149.86 106.68 0)
 			(hide yes)
@@ -8272,7 +8027,7 @@
 				)
 			)
 		)
-		(property "MPN" "STM32F405RGTx"
+		(property "MPN" "STM32F405RGT6"
 			(at 149.86 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8284,17 +8039,6 @@
 			)
 		)
 		(property "Manufacturer_Name" "ST"
-			(at 149.86 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
 			(at 149.86 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8548,6 +8292,39 @@
 				)
 			)
 		)
+				(property "LCSC" "C720477"
+			(at 107.95 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+				(property "Manufacturer_Name" "XUNPU"
+			(at 107.95 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+				(property "MPN" "TS-1088-AR02016"
+			(at 107.95 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Datasheet" ""
 			(at 107.95 71.12 0)
 			(hide yes)
@@ -8560,28 +8337,6 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 107.95 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 107.95 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
 			(at 107.95 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8905,28 +8660,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 172.72 52.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 172.72 52.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "7a66234d-adc5-4174-841e-f889976cc22a")
 		)
@@ -8974,6 +8707,39 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_BM05B-SRSS-TB_1x05-1MP_P1.00mm_Vertical"
+			(at 110.49 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+				(property "LCSC" "C160391"
+			(at 110.49 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+				(property "Manufacturer_Name" "JST"
+			(at 110.49 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+				(property "MPN" "BM05B-SRSS-TB(LF)(SN)"
 			(at 110.49 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9086,28 +8852,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 146.05 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 146.05 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
 			(at 146.05 43.18 0)
 			(hide yes)
 			(show_name no)

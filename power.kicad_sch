@@ -3291,7 +3291,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "XT30PWM"
+			(property "Footprint" "project:XT30PWM"
 				(at 16.51 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4932,28 +4932,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 232.41 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 232.41 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "32657a17-536d-44b9-a6d2-899ee1569022")
 		)
@@ -5091,6 +5069,18 @@
 				(justify left top)
 			)
 		)
+				(property "LCSC" "C260400"
+			(at 59.69 -23.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/view/948707/DGNJDZ/SK54.html"
 			(at 59.69 -123.8 0)
 			(hide yes)
@@ -5126,7 +5116,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Suzhou Good-Ark Electronics Co., Ltd."
+		(property "Manufacturer_Name" "SMC"
 			(at 59.69 -423.8 0)
 			(hide yes)
 			(show_name no)
@@ -5150,66 +5140,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 59.69 -623.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 59.69 -723.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "SK54"
-			(at 59.69 -823.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sk54/good-ark-semiconductor.html?utm_currency=USD&region=nac"
-			(at 59.69 -923.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
 		(property "MPN" "SK54"
-			(at 71.12 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
 			(at 71.12 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5458,28 +5389,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 85.09 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 85.09 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "5ab63f6a-2638-4cd7-a191-9f2a6d12ef24")
 		)
@@ -5552,28 +5461,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 171.45 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 171.45 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
 			(at 171.45 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5856,7 +5743,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "100u 35V"
 			(at 114.3 110.8709 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5867,7 +5754,40 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 111.4552 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+				(property "LCSC" "C19184138"
+			(at 111.4552 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+				(property "Manufacturer_Name" "RS"
+			(at 111.4552 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+				(property "MPN" "CK1V101M-CRE77"
 			(at 111.4552 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5890,28 +5810,6 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 110.49 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 110.49 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
 			(at 110.49 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6037,7 +5935,7 @@
 				)
 			)
 		)
-		(property "Value" "100uH"
+		(property "Value" "100uH 2.5A"
 			(at 151.13 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6047,7 +5945,29 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MELF"
+		(property "Footprint" "jlc:IND-SMD_L12.5-W12.5"
+			(at 151.13 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+				(property "LCSC" "C7431084"
+			(at 151.13 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+				(property "Manufacturer_Part_Number" "CYH125-100UH"
 			(at 151.13 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6080,7 +6000,7 @@
 				)
 			)
 		)
-		(property "MPN" "74477120"
+		(property "MPN" "CYH125-100UH"
 			(at 151.13 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -6091,18 +6011,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Wurth"
-			(at 151.13 99.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
+		(property "Manufacturer_Name" "SHOU HAN"
 			(at 151.13 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -6160,7 +6069,19 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30PWM"
+		(property "Footprint" "project:XT30PWM"
+			(at 58.42 134.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+				(property "MPN" "XT30PW-M"
 			(at 58.42 134.29 0)
 			(hide yes)
 			(show_name no)
@@ -6221,54 +6142,6 @@
 		)
 		(property "Manufacturer_Part_Number" "XT30PW-M"
 			(at 58.42 634.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 58.42 734.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 58.42 834.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 58.42 934.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 58.42 1034.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6469,150 +6342,7 @@
 				)
 			)
 		)
-		(property "Dielectric" ""
-			(at 144.78 111.76 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Microchip Technology"
-			(at 144.78 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.76mm"
-			(at 144.78 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 144.78 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 144.78 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/JANTX1N5822US/Microchip+Technology/view-part/?ref=eda"
-			(at 144.78 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 144.78 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "1"
-			(at 144.78 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/JANTX1N5822US/Microchip+Technology/view-part/?ref=snap"
-			(at 144.78 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MP" "JANTX1N5822US"
-			(at 144.78 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=7398295&manufacturer=Microchip Technology&part_name=JANTX1N5822US&search_term=None"
-			(at 144.78 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 144.78 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Microchip"
 			(at 144.78 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7096,28 +6826,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 86.36 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 86.36 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "ac7f5c98-0a93-40ac-ac0f-0c46471893e9")
 		)
@@ -7190,28 +6898,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 217.17 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 217.17 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
 			(at 217.17 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7328,17 +7014,6 @@
 				)
 			)
 		)
-		(property "Dielectric" ""
-			(at 185.42 99.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "9"
 			(uuid "5ed83472-34f7-4bc1-bf32-3f83cf6a8cfb")
 		)
@@ -7418,6 +7093,18 @@
 				)
 			)
 		)
+				(property "Manufacturer_Name" "Littelfuse"
+			(at 35.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 		(property "Datasheet" "2920L500/16MR"
 			(at 35.56 99.06 0)
 			(hide yes)
@@ -7442,17 +7129,6 @@
 			)
 		)
 		(property "MPN" "2920L500/16MR"
-			(at 35.56 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
 			(at 35.56 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7524,6 +7200,18 @@
 				)
 			)
 		)
+				(property "Manufacturer_Part_Number" "LM2576D2TR4-5G"
+			(at 121.92 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 		(property "Datasheet" "https://octopart.com/datasheet/onsemi/LM2576D2TR4-5G"
 			(at 121.92 99.06 0)
 			(hide yes)
@@ -7559,17 +7247,6 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at 121.92 99.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
 			(at 121.92 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -7789,66 +7466,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 66.04 -594.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 66.04 -694.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 66.04 -794.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 66.04 -894.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
 		(property "MPN" "SS14"
-			(at 78.74 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
 			(at 78.74 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8097,28 +7715,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 97.79 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 97.79 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "8a10381e-0f6b-4527-9ef2-55387b130275")
 		)
@@ -8280,28 +7876,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 182.88 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 182.88 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "b44a09be-955f-432b-9ef9-970a24700f52")
 		)
@@ -8452,28 +8026,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 243.84 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 243.84 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
 			(at 243.84 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8916,66 +8468,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Mouser Part Number" "652-SMBJ18A"
-			(at -641.58 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SMBJ18A?qs=%252Bf8Cd6aE5bwN%2FRdvEQpeKQ%3D%3D"
-			(at -741.58 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Arrow Part Number" "SMBJ18A"
-			(at -841.58 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/smbj18a/bourns.html?utm_currency=USD&region=nac"
-			(at -941.58 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
 		(property "MPN" "SMBJ18A"
-			(at 52.07 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
 			(at 52.07 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -9058,28 +8551,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 257.81 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 257.81 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
 			(at 257.81 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9418,7 +8889,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized")
 		(at 72.39 78.74 0)
 		(unit 1)
 		(body_style 1)
@@ -9440,7 +8911,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "100u 35V"
 			(at 76.2 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9451,7 +8922,40 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 73.3552 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+				(property "LCSC" "C19184138"
+			(at 73.3552 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+				(property "Manufacturer_Name" "RS"
+			(at 73.3552 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+				(property "MPN" "CK1V101M-CRE77"
 			(at 73.3552 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9473,29 +8977,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 72.39 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 72.39 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
+		(property "Description" "Polarized capacitor"
 			(at 72.39 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9578,28 +9060,6 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 157.48 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 157.48 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
 			(at 157.48 110.49 0)
 			(hide yes)
 			(show_name no)

@@ -4542,28 +4542,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 143.51 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 143.51 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "cc1ca872-1bbe-4f79-aec1-c31701f5b239")
 		)
@@ -4602,7 +4580,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SI4122DY-T1-GE3"
+		(property "Value" "FDS4080N7"
 			(at 162.56 53.3399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4614,6 +4592,18 @@
 			)
 		)
 		(property "Footprint" "project:SOIC127P600X175-8N"
+			(at 246.05 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+				(property "LCSC" "C3289680"
 			(at 246.05 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4648,7 +4638,7 @@
 				)
 			)
 		)
-		(property "MPN" "AO4310"
+		(property "MPN" "FDS4080N7"
 			(at 151.13 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4659,7 +4649,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Manufacturer_Name" "onsemi"
 			(at 846.05 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4669,17 +4659,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(property "Dielectric" ""
-			(at 151.13 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Height" "1.75"
@@ -4694,31 +4673,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "781-SI4122DY-T1-GE3"
-			(at 646.05 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4122DY-T1-GE3?qs=IRuQNBqMOcmG0EdXo7usFg%3D%3D"
-			(at 746.05 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SI4122DY-T1-GE3"
+		(property "Manufacturer_Part_Number" "FDS4080N7"
 			(at 946.05 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5070,17 +5025,6 @@
 				)
 			)
 		)
-		(property "Dielectric" ""
-			(at 100.33 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "3a70d4e6-0de9-46fe-8c93-86f5e3ec72dc")
 		)
@@ -5323,28 +5267,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 50.8 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 50.8 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "4024334f-6145-4983-b03b-51b45e3894f3")
 		)
@@ -5474,7 +5396,7 @@
 				)
 			)
 		)
-		(property "Value" "SI4122DY-T1-GE3"
+		(property "Value" "FDS4080N7"
 			(at 214.63 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5485,6 +5407,18 @@
 			)
 		)
 		(property "Footprint" "project:SOIC127P600X175-8N"
+			(at 318.44 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+				(property "LCSC" "C3289680"
 			(at 318.44 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5519,7 +5453,7 @@
 				)
 			)
 		)
-		(property "MPN" "AO4310"
+		(property "MPN" "FDS4080N7"
 			(at 223.52 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5530,7 +5464,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Manufacturer_Name" "onsemi"
 			(at 918.44 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5540,17 +5474,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(property "Dielectric" ""
-			(at 223.52 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Height" "1.75"
@@ -5565,31 +5488,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "781-SI4122DY-T1-GE3"
-			(at 718.44 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4122DY-T1-GE3?qs=IRuQNBqMOcmG0EdXo7usFg%3D%3D"
-			(at 818.44 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SI4122DY-T1-GE3"
+		(property "Manufacturer_Part_Number" "FDS4080N7"
 			(at 1018.44 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6093,28 +5992,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 67.31 114.3 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 67.31 114.3 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "ff155970-16e7-469c-abf9-c47fbf31a20a")
 		)
@@ -6195,28 +6072,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 215.9 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 215.9 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "6682f4bb-342a-4371-a57c-2fd3ea2a5160")
 		)
@@ -6255,7 +6110,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SI4122DY-T1-GE3"
+		(property "Value" "FDS4080N7"
 			(at 86.36 53.3399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6267,6 +6122,18 @@
 			)
 		)
 		(property "Footprint" "project:SOIC127P600X175-8N"
+			(at 169.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+				(property "LCSC" "C3289680"
 			(at 169.85 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6301,7 +6168,7 @@
 				)
 			)
 		)
-		(property "MPN" "AO4310"
+		(property "MPN" "FDS4080N7"
 			(at 74.93 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6312,7 +6179,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Manufacturer_Name" "onsemi"
 			(at 769.85 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6322,17 +6189,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(property "Dielectric" ""
-			(at 74.93 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Height" "1.75"
@@ -6347,31 +6203,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "781-SI4122DY-T1-GE3"
-			(at 569.85 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4122DY-T1-GE3?qs=IRuQNBqMOcmG0EdXo7usFg%3D%3D"
-			(at 669.85 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SI4122DY-T1-GE3"
+		(property "Manufacturer_Part_Number" "FDS4080N7"
 			(at 869.85 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6473,28 +6305,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 64.77 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 64.77 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
 			(at 64.77 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -6744,28 +6554,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 49.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 49.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "5aca271f-7f91-4559-8e57-3e035427d040")
 		)
@@ -6805,7 +6593,7 @@
 				)
 			)
 		)
-		(property "Value" "SI4122DY-T1-GE3"
+		(property "Value" "FDS4080N7"
 			(at 66.04 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6816,6 +6604,18 @@
 			)
 		)
 		(property "Footprint" "project:SOIC127P600X175-8N"
+			(at 169.85 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+				(property "LCSC" "C3289680"
 			(at 169.85 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6850,7 +6650,7 @@
 				)
 			)
 		)
-		(property "MPN" "AO4310"
+		(property "MPN" "FDS4080N7"
 			(at 74.93 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6861,7 +6661,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Manufacturer_Name" "onsemi"
 			(at 769.85 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6871,17 +6671,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(property "Dielectric" ""
-			(at 74.93 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Height" "1.75"
@@ -6896,31 +6685,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "781-SI4122DY-T1-GE3"
-			(at 569.85 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4122DY-T1-GE3?qs=IRuQNBqMOcmG0EdXo7usFg%3D%3D"
-			(at 669.85 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SI4122DY-T1-GE3"
+		(property "Manufacturer_Part_Number" "FDS4080N7"
 			(at 869.85 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7201,28 +6966,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 67.31 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 67.31 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "cb88b7aa-8cef-4177-ba79-9214e989c94b")
 		)
@@ -7337,7 +7080,7 @@
 				)
 			)
 		)
-		(property "Value" "SI4122DY-T1-GE3"
+		(property "Value" "FDS4080N7"
 			(at 142.24 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7348,6 +7091,18 @@
 			)
 		)
 		(property "Footprint" "project:SOIC127P600X175-8N"
+			(at 246.05 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+				(property "LCSC" "C3289680"
 			(at 246.05 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7382,7 +7137,7 @@
 				)
 			)
 		)
-		(property "MPN" "AO4310"
+		(property "MPN" "FDS4080N7"
 			(at 151.13 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7393,7 +7148,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Manufacturer_Name" "onsemi"
 			(at 846.05 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7403,17 +7158,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(property "Dielectric" ""
-			(at 151.13 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Height" "1.75"
@@ -7428,31 +7172,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "781-SI4122DY-T1-GE3"
-			(at 646.05 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4122DY-T1-GE3?qs=IRuQNBqMOcmG0EdXo7usFg%3D%3D"
-			(at 746.05 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SI4122DY-T1-GE3"
+		(property "Manufacturer_Part_Number" "FDS4080N7"
 			(at 946.05 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7735,28 +7455,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 142.24 114.3 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 142.24 114.3 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "5bf9c6ab-85b4-4e94-96c0-22480478d727")
 		)
@@ -7795,7 +7493,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SI4122DY-T1-GE3"
+		(property "Value" "FDS4080N7"
 			(at 234.95 53.3399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7807,6 +7505,18 @@
 			)
 		)
 		(property "Footprint" "project:SOIC127P600X175-8N"
+			(at 318.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+				(property "LCSC" "C3289680"
 			(at 318.44 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7841,7 +7551,7 @@
 				)
 			)
 		)
-		(property "MPN" "AO4310"
+		(property "MPN" "FDS4080N7"
 			(at 223.52 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7852,7 +7562,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Manufacturer_Name" "onsemi"
 			(at 918.44 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7862,17 +7572,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(property "Dielectric" ""
-			(at 223.52 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Height" "1.75"
@@ -7887,31 +7586,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "781-SI4122DY-T1-GE3"
-			(at 718.44 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4122DY-T1-GE3?qs=IRuQNBqMOcmG0EdXo7usFg%3D%3D"
-			(at 818.44 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SI4122DY-T1-GE3"
+		(property "Manufacturer_Part_Number" "FDS4080N7"
 			(at 1018.44 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8213,7 +7888,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7m5"
+		(property "Value" "7m5 3W"
 			(at 83.82 128.2699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8224,7 +7899,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project:RESM11569X253N"
+		(property "Footprint" "jlc:RES-SMD_L6.3-W3.2_CSSH2512"
+			(at 80.01 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+				(property "LCSC" "C304389"
 			(at 80.01 127 0)
 			(hide yes)
 			(show_name no)
@@ -8259,139 +7946,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MF" "Vishay"
-			(at 80.01 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.537mm"
-			(at 80.01 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 80.01 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 80.01 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/WSR57L500FEA/Vishay/view-part/?ref=eda"
-			(at 80.01 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 80.01 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "01-Jan-2019"
-			(at 80.01 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/WSR57L500FEA/Vishay/view-part/?ref=snap"
-			(at 80.01 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=15927850&manufacturer=Vishay&part_name=WSR57L500FEA&search_term=None"
-			(at 80.01 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 80.01 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Vishay"
-			(at 80.01 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "WSR57L500FEA"
+		(property "MPN" "LR2512-23R0075F4"
 			(at 80.01 127 90)
 			(hide yes)
 			(show_name no)
@@ -8402,18 +7957,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 80.01 127 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
+		(property "Manufacturer_Name" "RALEC"
 			(at 80.01 127 90)
 			(hide yes)
 			(show_name no)
@@ -8542,7 +8086,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7m5"
+		(property "Value" "7m5 3W"
 			(at 232.41 128.2699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8553,7 +8097,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project:RESM11569X253N"
+		(property "Footprint" "jlc:RES-SMD_L6.3-W3.2_CSSH2512"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+				(property "LCSC" "C304389"
 			(at 228.6 127 0)
 			(hide yes)
 			(show_name no)
@@ -8588,139 +8144,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MF" "Vishay"
-			(at 228.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.537mm"
-			(at 228.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 228.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 228.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/WSR57L500FEA/Vishay/view-part/?ref=eda"
-			(at 228.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 228.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "01-Jan-2019"
-			(at 228.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/WSR57L500FEA/Vishay/view-part/?ref=snap"
-			(at 228.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=15927850&manufacturer=Vishay&part_name=WSR57L500FEA&search_term=None"
-			(at 228.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 228.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Vishay"
-			(at 228.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "WSR57L500FEA"
+		(property "MPN" "LR2512-23R0075F4"
 			(at 228.6 127 90)
 			(hide yes)
 			(show_name no)
@@ -8731,18 +8155,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 228.6 127 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
+		(property "Manufacturer_Name" "RALEC"
 			(at 228.6 127 90)
 			(hide yes)
 			(show_name no)
@@ -8791,7 +8204,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7m5"
+		(property "Value" "7m5 3W"
 			(at 160.02 128.2699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8802,7 +8215,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project:RESM11569X253N"
+		(property "Footprint" "jlc:RES-SMD_L6.3-W3.2_CSSH2512"
+			(at 156.21 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+				(property "LCSC" "C304389"
 			(at 156.21 127 0)
 			(hide yes)
 			(show_name no)
@@ -8837,139 +8262,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MF" "Vishay"
-			(at 156.21 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.537mm"
-			(at 156.21 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 156.21 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 156.21 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/WSR57L500FEA/Vishay/view-part/?ref=eda"
-			(at 156.21 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 156.21 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "01-Jan-2019"
-			(at 156.21 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/WSR57L500FEA/Vishay/view-part/?ref=snap"
-			(at 156.21 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=15927850&manufacturer=Vishay&part_name=WSR57L500FEA&search_term=None"
-			(at 156.21 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 156.21 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Vishay"
-			(at 156.21 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "WSR57L500FEA"
+		(property "MPN" "LR2512-23R0075F4"
 			(at 156.21 127 90)
 			(hide yes)
 			(show_name no)
@@ -8980,18 +8273,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 156.21 127 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
+		(property "Manufacturer_Name" "RALEC"
 			(at 156.21 127 90)
 			(hide yes)
 			(show_name no)
@@ -9166,17 +8448,6 @@
 				)
 			)
 		)
-		(property "Dielectric" ""
-			(at 248.92 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "6da40d76-b847-4eec-9429-51a34d2b01ed")
 		)
@@ -9249,17 +8520,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 176.53 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
 			(at 176.53 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9390,66 +8650,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "871-B57421V2103J062"
-			(at -631.42 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B57421V2103J062?qs=E%2F3ZYvLbbh%2FG20tRdEgfTQ%3D%3D"
-			(at -731.42 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -831.42 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -931.42 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
 		(property "MPN" "B57421V2103J062"
-			(at 64.77 171.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
 			(at 64.77 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -10163,28 +9364,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 215.9 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 215.9 114.3 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 215.9 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
