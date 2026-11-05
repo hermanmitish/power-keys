@@ -920,7 +920,7 @@
 		(dnp no)
 		(uuid "193f2d55-48aa-41ef-a244-a11253d94dc6")
 		(property "Reference" "TP7"
-			(at 121.92 94.742 0)
+			(at 122.174 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1226,7 +1226,7 @@
 		(dnp no)
 		(uuid "33704da9-4f86-4c95-ac14-51295ce6ad59")
 		(property "Reference" "TP12"
-			(at 198.12 61.722 0)
+			(at 198.12 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1237,6 +1237,7 @@
 		)
 		(property "Value" "TestPoint"
 			(at 196.85 64.008 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1379,7 +1380,7 @@
 		(dnp no)
 		(uuid "3fa277a2-fdb8-4fa8-87ce-e361eb69ab5b")
 		(property "Reference" "TP10"
-			(at 130.81 133.858 0)
+			(at 130.81 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1390,6 +1391,7 @@
 		)
 		(property "Value" "TestPoint"
 			(at 132.08 131.572 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1456,7 +1458,7 @@
 		(dnp no)
 		(uuid "4774e8ad-1020-4755-ac2c-40d433f7a9b5")
 		(property "Reference" "TP9"
-			(at 135.89 110.998 0)
+			(at 136.144 109.982 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1467,6 +1469,7 @@
 		)
 		(property "Value" "TestPoint"
 			(at 141.732 109.22 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1533,7 +1536,7 @@
 		(dnp no)
 		(uuid "5275b74c-2cc3-4c8b-950f-1b7f85a5897d")
 		(property "Reference" "TP13"
-			(at 128.27 109.982 0)
+			(at 128.016 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1544,6 +1547,7 @@
 		)
 		(property "Value" "TestPoint"
 			(at 129.794 115.57 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1610,7 +1614,7 @@
 		(dnp no)
 		(uuid "787abf83-8569-4b9b-8e7d-e23412a7d57c")
 		(property "Reference" "TP8"
-			(at 121.92 113.538 0)
+			(at 122.174 112.268 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1621,6 +1625,7 @@
 		)
 		(property "Value" "TestPoint"
 			(at 122.936 110.49 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1687,7 +1692,7 @@
 		(dnp no)
 		(uuid "88934b4a-d160-4319-a71b-21b94b799162")
 		(property "Reference" "TP11"
-			(at 186.69 61.722 0)
+			(at 186.69 62.738 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1698,6 +1703,7 @@
 		)
 		(property "Value" "TestPoint"
 			(at 185.42 64.008 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1840,7 +1846,7 @@
 		(dnp no)
 		(uuid "da560e7a-7062-4e18-8bee-f1c7c4b41b8f")
 		(property "Reference" "TP14"
-			(at 128.27 126.238 0)
+			(at 128.524 124.968 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1851,6 +1857,7 @@
 		)
 		(property "Value" "TestPoint"
 			(at 129.54 123.952 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1912,6 +1919,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1932,7 +1940,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 84.328 123.698 0)
+			(at 83.82 126.3146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

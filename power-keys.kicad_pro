@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.3056,
-          "width": 0.858799
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -76,7 +76,36 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|45500000|58142136|95ea8369-06f9-4512-884d-82a2746c9288|0c691342-e1ac-46bb-9ee5-326b9b73964a",
+          ""
+        ],
+        [
+          "silk_edge_clearance|45500000|68042136|95ea8369-06f9-4512-884d-82a2746c9288|e31755f7-1491-4672-8a85-8709c478b293",
+          ""
+        ],
+        [
+          "silk_edge_clearance|61170820|109487427|95ea8369-06f9-4512-884d-82a2746c9288|d43dce1c-41be-4491-9243-60dd13ad55b1",
+          ""
+        ],
+        [
+          "silk_edge_clearance|70170820|109487427|95ea8369-06f9-4512-884d-82a2746c9288|923e760f-5f80-4d1e-ac5e-0ffc474a5066",
+          ""
+        ],
+        [
+          "silk_edge_clearance|70170820|109487427|95ea8369-06f9-4512-884d-82a2746c9288|f7bf6ebf-78d8-4afe-9b2a-4690844569bc",
+          ""
+        ],
+        [
+          "silk_edge_clearance|71680000|49500000|95ea8369-06f9-4512-884d-82a2746c9288|f02c2bb4-2e8f-4db2-8678-38c5130e9871",
+          ""
+        ],
+        [
+          "silk_edge_clearance|87160000|49500000|95ea8369-06f9-4512-884d-82a2746c9288|cc9fd2d2-bcb1-4d8d-a6d9-3a8c79bb456a",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -156,8 +185,8 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 1.0,
-        "min_text_thickness": 0.15,
+        "min_text_height": 0.6,
+        "min_text_thickness": 0.1,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.15,
         "min_via_annular_width": 0.15,
@@ -881,7 +910,7 @@
         "uuid": "1138e95e-403e-48b2-800e-d6dade74b36d"
       }
     ],
-    "used_designators": "NT1-12,J1-3,J5,IC1-3,R1-6,R9-21,U1,C1-14,C39-42,FB1,SW1-2,Q1-12,#PWR1-43,#PWR60-62,#PWR67-73,Y1,TP17,TH1-2,#FLG1-8",
+    "used_designators": "#FLG1-8,TH1-2,TP17,U1,C1-14,C39-42,FB1,SW1-2,Y1,#PWR1-43,#PWR60-62,#PWR67-73,Q1-12,R1-6,R9-21,IC1-3,J1-3,J5,NT1-12",
     "variants": []
   },
   "sheets": [

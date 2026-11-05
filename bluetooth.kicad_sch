@@ -588,7 +588,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "RN4871IRM140"
+			(property "Footprint" "project:RN4871IRM140"
 				(at 29.21 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)

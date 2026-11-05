@@ -3208,7 +3208,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "ABM810000MHZ12D2W"
+			(property "Footprint" "project:ABM810000MHZ12D2W"
 				(at 26.67 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)

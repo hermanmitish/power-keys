@@ -1359,7 +1359,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "THRMC2012X130N"
+			(property "Footprint" "project:THRMC2012X130N"
 				(at 13.97 -96.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1581,7 +1581,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SOIC127P600X175-8N"
+			(property "Footprint" "project:SOIC127P600X175-8N"
 				(at 21.59 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1866,7 +1866,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "WSR57L500FEA:RESM11569X253N"
+			(property "Footprint" "jlc:RES-SMD_L6.3-W3.2_CSSH2512"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
