@@ -3709,13 +3709,13 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 106.68) (xy 208.28 106.68)
+			(xy 204.47 116.84) (xy 208.28 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b72fd85-0068-4387-a97d-653e5e4c5117")
+		(uuid "0ba09ca6-e4fe-48da-896d-f29f61d02a35")
 	)
 	(wire
 		(pts
@@ -3839,6 +3839,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 114.3) (xy 208.28 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237d0f33-bc34-4273-9f87-bd23f2016654")
+	)
+	(wire
+		(pts
 			(xy 146.05 46.99) (xy 152.4 46.99)
 		)
 		(stroke
@@ -3856,16 +3866,6 @@
 			(type default)
 		)
 		(uuid "2b8fa61c-5b4f-4703-a2df-d0b53bfea190")
-	)
-	(wire
-		(pts
-			(xy 204.47 104.14) (xy 208.28 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3026dd39-d393-4a73-a2b5-53b6b6f3dab6")
 	)
 	(wire
 		(pts
@@ -4019,6 +4019,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 104.14) (xy 208.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ca80ea-cd94-4092-ac79-188430838b14")
+	)
+	(wire
+		(pts
 			(xy 119.38 88.9) (xy 119.38 95.25)
 		)
 		(stroke
@@ -4026,26 +4036,6 @@
 			(type default)
 		)
 		(uuid "4328e2aa-633f-4452-8344-574c618b85e7")
-	)
-	(wire
-		(pts
-			(xy 190.5 109.22) (xy 208.28 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a22e843-632e-4813-86d9-9769a09e2816")
-	)
-	(wire
-		(pts
-			(xy 190.5 114.3) (xy 208.28 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ac31d31-63f7-4230-a460-be3a8ddf4533")
 	)
 	(wire
 		(pts
@@ -4419,6 +4409,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 111.76) (xy 208.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "963f80f3-4fb1-4372-999f-baba8b35dc12")
+	)
+	(wire
+		(pts
 			(xy 179.07 91.44) (xy 189.23 91.44)
 		)
 		(stroke
@@ -4616,16 +4616,6 @@
 			(type default)
 		)
 		(uuid "b02365b3-12fc-49c6-b6d1-0bdd0b8960c1")
-	)
-	(wire
-		(pts
-			(xy 189.23 111.76) (xy 208.28 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b05dfde7-73c4-4a37-8743-510da260f2a9")
 	)
 	(wire
 		(pts
@@ -4869,16 +4859,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 116.84) (xy 208.28 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d36e8c46-55ec-48d5-a2a0-5871f94d3f6f")
-	)
-	(wire
-		(pts
 			(xy 127 46.99) (xy 133.35 46.99)
 		)
 		(stroke
@@ -4916,6 +4896,16 @@
 			(type default)
 		)
 		(uuid "d8048100-56f1-4f29-98bf-012a1a404b27")
+	)
+	(wire
+		(pts
+			(xy 189.23 106.68) (xy 208.28 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d96509fc-6ab6-4679-af31-93714d4445cf")
 	)
 	(wire
 		(pts
@@ -5006,6 +4996,16 @@
 			(type default)
 		)
 		(uuid "eacfe37f-e258-42ad-8bf1-59719210b25a")
+	)
+	(wire
+		(pts
+			(xy 190.5 109.22) (xy 208.28 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6aab71-ae06-4b70-8030-4124f7f8620f")
 	)
 	(wire
 		(pts
@@ -6110,7 +6110,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 213.36 109.22 0)
+		(at 213.36 111.76 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6118,10 +6119,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4c2d4d52-fa8f-4d5a-bfd3-e166d8815175")
 		(property "Reference" "J4"
-			(at 215.9 109.2199 0)
+			(at 215.9 111.7601 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6132,7 +6132,7 @@
 			)
 		)
 		(property "Value" "Conn_ARM_JTAG_SWD_10"
-			(at 215.9 111.7599 0)
+			(at 215.9 109.2201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6142,8 +6142,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical"
-			(at 213.36 109.22 0)
+		(property "Footprint" "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
+			(at 213.36 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6154,7 +6154,7 @@
 			)
 		)
 		(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
-			(at 213.36 109.22 0)
+			(at 213.36 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6165,7 +6165,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 213.36 109.22 0)
+			(at 213.36 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6176,7 +6176,7 @@
 			)
 		)
 		(property "LCSC" "C160392"
-			(at 213.36 109.22 0)
+			(at 213.36 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6187,7 +6187,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "JST"
-			(at 213.36 109.22 0)
+			(at 213.36 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6198,7 +6198,7 @@
 			)
 		)
 		(property "MPN" "BM06B-SRSS-TB(LF)(SN)"
-			(at 213.36 109.22 0)
+			(at 213.36 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8712,7 +8712,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 110.49 97.79 180)
+		(at 110.49 97.79 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8722,7 +8723,7 @@
 		(dnp no)
 		(uuid "ee616544-aa46-475c-9d79-978be2afaabf")
 		(property "Reference" "J2"
-			(at 110.49 105.41 0)
+			(at 110.49 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8732,7 +8733,7 @@
 			)
 		)
 		(property "Value" "Hall Sensor Conn_01x05"
-			(at 107.696 99.822 90)
+			(at 107.696 95.758 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8741,7 +8742,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM05B-SRSS-TB_1x05-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
 			(at 110.49 97.79 0)
 			(hide yes)
 			(show_name no)

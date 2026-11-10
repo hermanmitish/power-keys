@@ -78,11 +78,35 @@
       ],
       "drc_exclusions": [
         [
-          "silk_edge_clearance|45500000|58142136|95ea8369-06f9-4512-884d-82a2746c9288|0c691342-e1ac-46bb-9ee5-326b9b73964a",
+          "copper_edge_clearance|105500000|59600000|95ea8369-06f9-4512-884d-82a2746c9288|b28b78b6-32d1-4780-a207-8818534e3ca5",
           ""
         ],
         [
-          "silk_edge_clearance|45500000|68042136|95ea8369-06f9-4512-884d-82a2746c9288|e31755f7-1491-4672-8a85-8709c478b293",
+          "copper_edge_clearance|105500000|66200000|95ea8369-06f9-4512-884d-82a2746c9288|d943708d-73fc-4574-a4e5-3cc219f36977",
+          ""
+        ],
+        [
+          "copper_edge_clearance|105500000|81100000|95ea8369-06f9-4512-884d-82a2746c9288|ecb09b61-143c-4516-b979-31887fcc036c",
+          ""
+        ],
+        [
+          "copper_edge_clearance|105500000|88700000|95ea8369-06f9-4512-884d-82a2746c9288|624c81e0-29b1-490c-8a08-db31c509f04d",
+          ""
+        ],
+        [
+          "copper_edge_clearance|45500000|57592136|95ea8369-06f9-4512-884d-82a2746c9288|54bc3622-b8fa-47f3-8b5f-d80c9ac2feaa",
+          ""
+        ],
+        [
+          "copper_edge_clearance|45500000|68592136|95ea8369-06f9-4512-884d-82a2746c9288|06fe0619-253d-4fb0-baac-211a8f0e10ef",
+          ""
+        ],
+        [
+          "copper_edge_clearance|73250000|49500000|95ea8369-06f9-4512-884d-82a2746c9288|75515017-6398-4b85-963d-f8c3936f8072",
+          ""
+        ],
+        [
+          "copper_edge_clearance|86250000|49500000|95ea8369-06f9-4512-884d-82a2746c9288|f0323671-5fb5-4f0c-a613-09b10ed996cc",
           ""
         ],
         [
@@ -98,11 +122,11 @@
           ""
         ],
         [
-          "silk_edge_clearance|71680000|49500000|95ea8369-06f9-4512-884d-82a2746c9288|f02c2bb4-2e8f-4db2-8678-38c5130e9871",
+          "silk_edge_clearance|72050000|49500000|95ea8369-06f9-4512-884d-82a2746c9288|fbfc7349-7be0-4e77-96fe-359caf903f01",
           ""
         ],
         [
-          "silk_edge_clearance|87160000|49500000|95ea8369-06f9-4512-884d-82a2746c9288|cc9fd2d2-bcb1-4d8d-a6d9-3a8c79bb456a",
+          "silk_edge_clearance|87450000|49500000|95ea8369-06f9-4512-884d-82a2746c9288|7c8e03b7-a081-40e4-9c36-b191b90f54c9",
           ""
         ]
       ],
@@ -631,7 +655,7 @@
       "netlist": "",
       "plot": "gerber/",
       "specctra_dsn": "",
-      "step": "model/power-keys.step",
+      "step": "model/power-keys-up.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

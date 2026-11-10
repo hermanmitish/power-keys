@@ -4797,7 +4797,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" "470u 35V"
 			(at 123.19 173.1009 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4830,8 +4830,41 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Polymer 470uF 35V radial 10x12.5 P5.0 (THT, hand-solder)"
 			(at 119.38 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C46550433"
+			(at 120.3452 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "jieerrui"
+			(at 120.3452 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PA35V470M10x12"
+			(at 120.3452 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6545,7 +6578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-3-5.08_1x03_P5.08mm_Horizontal"
+		(property "Footprint" "project:MR30PWM"
 			(at 49.53 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8851,7 +8884,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" "470u 35V"
 			(at 110.49 173.1009 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8884,8 +8917,41 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Polymer 470uF 35V radial 10x12.5 P5.0 (THT, hand-solder)"
 			(at 106.68 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C46550433"
+			(at 107.6452 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "jieerrui"
+			(at 107.6452 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PA35V470M10x12"
+			(at 107.6452 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
